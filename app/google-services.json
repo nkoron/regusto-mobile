@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "781145650297",
+    "project_id": "regusto-f595c",
+    "storage_bucket": "regusto-f595c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781145650297:android:bf49f0c437dd61a6e550a8",
+        "android_client_info": {
+          "package_name": "regusto.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhJF2vrmZZtWWntlg4pnM4JaWtrM-I8Yw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

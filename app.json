@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Regusto",
+    "slug": "regusto",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "regusto",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "notification": {
+      "iosDisplayInForeground": true,
+        "androidMode": "default",
+        "icon": "./assets/images/ReGustoLogo-removebg-preview.png",
+        "color": "#ffffff"
+    },
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./app/google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+        "package": "regusto.android"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ca757d44-09d4-46db-b25f-ff1a67369ac3"
+      },
+      "router": {
+        "origin": false
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "assets/images/ReGustoLogo-removebg-preview.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "owner": "nbellavitis"
+  }
+}
